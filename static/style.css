@@ -1,0 +1,304 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            
+            color: #333;
+            
+            /* margin: 20px; */
+        }
+
+        h1, h2 {
+            color: #4285f4;
+            text-align: center;
+        }
+
+        #predict-container, #models-container {
+            display: none;
+            background-color: #fff;
+            margin: 0 350px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        #predict-container{
+            display: block;
+        }
+
+        .form1 {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .input1, select{
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+            align-items: baseline;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .bt1 {
+            padding: 12px;
+            cursor: pointer;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .bt1:hover {
+            background-color: #3b79c4;
+        }
+
+        #prediction-result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #e0f7fa;
+            color: #0277bd;
+        }
+
+        /* Navigation */
+        /* nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav .bt1 {
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            color: #fff;
+        } */
+
+        #predict-btn {
+            background-color: #4285f4;
+        }
+
+        #models-btn {
+            background-color: #4caf50;
+        }
+        .form1 {
+            padding-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        .input1, select {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .bt1 {
+            grid-column: span 2;
+            margin-top: 10px;
+            margin: 20px;
+        }
+        #predict-submit-btn {
+            grid-column: span 2;
+            margin-top: 10px;
+            margin: 20px;
+            /* width: 50%; */
+            margin: auto 35%;
+            align-items: center;
+        }
+
+.about-container {
+    margin-left: 17%;
+    background: linear-gradient(135deg, #0A1128,#26D0CE,#0A1128);
+    /* background: rgba(0, 0, 0, 0.7); Transparent black background */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 40px 40px;
+    width: 80%;
+            max-width: 1000px;
+            text-align: center;
+        }
+
+        .about-container h1 {
+            font-size: 2.5em;
+            color: #FFD700; /* Neon Cyan */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .about-container p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 15px 0;
+            color: #E0E0E0; /* Light gray */
+        }
+
+        .about-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .about-container li {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #B0E0E6; /* Pale cyan */
+        }
+
+        .about-container li::before {
+            content: "✔";
+            color: #00FFFF; /* Neon Cyan */
+            margin-right: 10px;
+        }
+
+        .about-container h2 {
+            font-size: 1.8em;
+            color: #FFD700; /* Gold */
+            margin-top: 25px;
+        }
+
+        /* Add subtle hover effect for fun */
+        .about-container:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease;
+        }
+
+        #contact:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease;
+        }
+
+.fot {
+    text-decoration: none;
+  }
+  
+  .carousel-inner {
+    max-height: 630px;
+  }
+  .carousel-inner img {
+    max-height: 630px;
+    width: 1600px;
+  }
+  
+  .image-grid {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-grid img {
+    height: 250px;
+    margin: 0 8px;
+    width: 200px;
+  }
+  
+  .bold{
+      color: gold;
+  
+  }
+  
+  
+  .gold:hover{
+      color: gold !important; 
+      border-color: gold !important;
+  }
+  
+  .btn:hover {
+    color: gold;
+  }
+  
+  #img1{
+    height: 400px;
+    width: 500px;
+    margin-left: 500px;
+  }
+  #text1{
+    padding-left: 200px;
+  }
+  
+  .navbar-custom {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+  }
+  /* Ensures the navigation links are on the right side */
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  /* Optional: Adjust the spacing between the links */
+  .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 50px;
+  }
+  /* Optional: Customize the appearance of the navbar */
+  .navbar {
+    background-color: #f8f9fa; 
+    /* background-color: rgba(0, 0, 0, 0.2); */
+  }
+  
+  
+  /* Adjusts the brand logo and links alignment in smaller screens */
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: right;
+    }
+  }
+  
+  /* .grid-container { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 5px; 
+    margin-top: 20px;
+   
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 8px;
+  } */
+  
+  
+  .grid-container { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 5px;  */
+    margin-top: 20px;
+   
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .grid-item img {
+    width: 275px;  /* Fixed width */
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure the image fits inside without distortion */
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
